@@ -1,11 +1,27 @@
 # pickFamily-Seledroid
 
+## NOTE
+- only works in termux
+
 ## Register
 
 - [x] [litepick](https://litepick.io/?ref=anjim128)
 - [x] [bnbpick](https://bnbpick.io/?ref=iewilmaestro)
 - [x] [tronpick](https://tronpick.io/?ref=iewilmaestro)
 - [x] [tonpick](https://tonpick.game/?ref=iewilmaestro)
+
+## Add More Url
+- you can add url here, but you need to clear output.json after adding url so that new url is detected
+```python
+hosts = [
+"https://litepick.io/",
+"https://tronpick.io/",
+"https://bnbpick.io/",
+"https://tonpick.game/",
+"xxx", #new url
+"xxx" #new url
+]
+```
 
 ## Download
 
@@ -20,7 +36,7 @@
 | 3    | <pre><code>termux-setup-storage</code></pre>                          |
 | 4    | Force exit Termux                                                     |
 | 5    | Reopen Termux                                                         |
-| 6    | Update & Upgrade package                                              |
+| 6    | Update & Upgrade package (Opsional)                                              |
 | 7    | <pre><code>yes \| pkg update -y && yes \| pkg upgrade -y</code></pre> |
 | 8    | Install python                       |
 | 9    | <pre><code>yes \| pkg install python -y</code></pre>              |
